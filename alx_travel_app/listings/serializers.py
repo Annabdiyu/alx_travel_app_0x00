@@ -17,6 +17,7 @@ class ListingSerializer(serializers.ModelSerializer):
 
 class BookingSerializer(serializers.ModelSerializer):
     """Serializer for the Booking model."""
+    
 
     class Meta:
         model = Booking
